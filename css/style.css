@@ -1,0 +1,405 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 10, 2017, 10:03:15 AM
+    Author     : Owner
+*/
+
+body {
+    background-color: #EDEDEE;
+}
+.navbar {
+    padding: 0;
+    z-index: 9;
+    top: 0;
+    background-color: #EDEDEE;
+    border-color: #e5e5e6;
+}
+.navbar-header > button {
+    background-color: #636369;
+    color: #EDEDEE;
+}
+.right{
+    float: right;
+}
+.navbar-inverse .navbar-nav > li > a{
+    color: black;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+    color: #7c7c83;
+}
+.logo {
+    width: 40%;
+}
+.shopNow {
+    font-size: 1.5vw;
+    margin-top: 5%;
+    padding: 0px;
+    text-align: center;
+}
+.Alllogo {
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+}
+.basketIMG{
+    width: 10vw;
+}
+.Alllogo strong {
+    font-size: 6vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.CategoryName, .ItemName{
+    margin-top: 15%;
+    width: 100%;
+    text-align: center;
+}
+.ItemName{
+    margin-top: 5%;
+}
+.CategoryName a, .ItemName a, .CategoryName span, .login-signup, .event-text, .filter span{
+    color: #B97F6D;
+}
+.CategoryName span, .about-section span, .login-signup span{
+    margin-top: -1vw; 
+    margin-bottom: -1vw; 
+    font-size: 3vw;
+}
+.CategoryName a, .ItemName a,.about-section strong, .login-signup strong, .event-text, .filter span{
+    font-size: 1.5vw;
+    padding: 0px;
+}
+#error{
+    font-size: 14px;
+}
+.mainPic {
+    background-color: #EDEDEE;
+    position: relative;
+    padding-top: 50px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+.category-section, .items-section, .event-section{
+    background-color: #EDEDEE;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+.category, .items{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 1.5vw;
+    margin-top: 1.5vw;
+    background-color: white;
+}
+.items{
+    background-color: transparent;
+}
+.about-section {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    background-color: #EDEDEE;
+}
+.about-section .text{
+    padding-top: 1vw;
+    font-size: 1vw;
+}
+.about {
+    width: 50%;
+    height: auto;
+    background-color: #123132;
+    overflow: hidden;
+}
+.about img {
+    width: 100%;
+}
+.first-about {
+    padding: 0px;
+    background-color: white;
+}
+.Allabout, .Alloffer{
+    text-align: center;
+    padding: 5vw;
+    position: absolute;
+}
+.Alloffer strong{
+    padding: 1.5vw;
+    font-size: 4vw;
+    color: #B97F6D;
+}
+.login-signup{
+    padding: 5vw;
+    text-align: center;
+    background-image: url(../pictures/staticIMG.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.login-signup strong{
+    font-size: 3vw;
+}
+.login-signup .input-group{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    width: 100%;
+}
+.footer .footer-title{
+    font-size: 1.5vw;
+    padding: 3vw;
+    color: #B97F6D;
+}
+.footer .footer-text{
+    color: #B97F6D;
+    padding-bottom: 3vw;
+    font-size: 1vw;
+}
+.footer{
+    text-align: center;
+    background-color: #123132;
+}
+.filter{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+.btn{
+    font-size: 1.5vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    color: white;
+    background-color: rgba(0,0,0,0.25);
+    border-radius: 0;
+}
+.selected, .selected:focus{
+    background-color: #B97F6D;
+    color: white;
+    border-color: #b47764;
+}
+.selected:hover{
+    background-color: #cda498;
+    border-color: #B97F6D;
+}
+.item{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    width: 815px;
+}
+.description{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.subimage{
+    margin: 5px;
+    border: #EDEDEE solid 1px;
+}
+.selected{
+    border: #B97F6D solid 2px;
+}
+.image{
+    border: #B97F6D solid 1px;
+}
+.astext{
+    width: 100%;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: transparent;
+    color: #B97F6D;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top: #B97F6D solid 1px;
+    border-bottom: #B97F6D solid 1px;
+}
+.info{
+    margin-top: 20px;
+}
+.collapsetxt{
+    margin: 10px;
+}
+.item{
+    margin-left: auto;
+    margin-right: auto;
+}
+.itemTitle{
+    font-size: 32px;
+}
+.itemQuantity input{
+    width: 75px;
+    margin: 0;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.itemMargin{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.addtocart{
+    width: 100%;
+    background-color: #B97F6D;
+    border-color: #b47764;
+    font-size: 16px;
+}
+.addtocart:hover{
+    background-color: #cda498;
+    border-color: #B97F6D;
+}
+.tiles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .tile {
+    position: relative;
+    float: left;
+    width: 33.333%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: transform .5s ease-out;
+  }
+.popover-content{
+    color: #d47254;
+    width: 12.5vw;
+}
+
+.modal.right .modal-dialog {
+        position: fixed;
+        margin: auto;
+        width: 320px;
+        height: 100%;
+        -webkit-transform: translate3d(0%, 0, 0);
+            -ms-transform: translate3d(0%, 0, 0);
+             -o-transform: translate3d(0%, 0, 0);
+                transform: translate3d(0%, 0, 0);
+}
+
+.modal.right .modal-content {
+        height: 100%;
+        overflow-y: auto;
+}
+	
+.modal.right .modal-body {
+        padding: 15px 15px 80px;
+}
+
+.modal.right.fade .modal-dialog {
+        right: -320px;
+        -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+           -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+             -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+                transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.modal.right.fade.in .modal-dialog {
+        right: 0;
+}
+@media (max-width: 767px){
+.about {
+    width: 100%;
+}
+.shopNow{
+    font-size: 2.25vw;
+}
+.btn {
+    font-size: 3vw;
+    padding: 5px;
+}
+.logo {
+    width: 60%;
+}
+.login-signup input{
+    font-size: 3vw;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.CategoryName a, .ItemName a, .about-section strong, .login-signup strong, .filter span{
+    font-size: 4vw;
+}
+.basketIMG{
+    width: 15vw;
+}
+.event-text{
+    font-size: 3vw;
+    padding: 1.5vw;
+}
+.pad{
+    padding: 0;
+}
+.CategoryName span, .about-section span, .login-signup span{
+    margin-top: -2vw; 
+    margin-bottom: -2vw; 
+    font-size: 5vw;
+}
+.about-section .text{
+    padding: 0;
+    padding-top: 1vw;
+    font-size: 4vw;
+}
+.Alloffer strong{
+    padding: 1.5vw;
+    padding-bottom: 6vw;
+    font-size: 10vw;
+}
+.login-signup strong{
+    font-size: 5vw;
+}
+.footer .footer-title{
+    font-size: 4vw;
+}
+.footer .footer-text{
+    padding-bottom: 5vw;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 3vw;
+}
+.text-height{
+    height: 130vw;
+}
+.about img {
+    width: 100%;
+}
+.item{
+    margin-top: 75px;
+    width: 100%;
+}
+.popover-content{
+    color: #d47254;
+    width: 42.5vw;
+    font-size: 10px;
+}
+.popover{
+    left: 50% !important;
+}
+} 
+
+@media (min-width: 1200px){
+    .category-section, .items-section, .event-section, .about-section{
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+}
